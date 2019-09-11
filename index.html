@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
 
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -24,14 +26,15 @@
     <link rel="icon" type="image/gif/png" href="./source/image/Title_icon.png">
   </head>
 
-  <body onmousemove="moveMask(event)">
-
-        <!--
+  <body onmousemove="moveMask(event)" >
+ <!--
 
         -->
        
 		<div class="Intro_cont container-fluid main_nav_container ">
+			
 			<div class="Nav_identifier Nav_container container" id="Nav_identifier" onmouseover="moveBoolF()" onmouseout="moveBoolT()" >
+
                     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                     <a href="#" class="navbar-brand">
                       <img class="Logo_navbar" src="./source/image/Company_logo.png" alt="logo"  width="50" height ="50">
@@ -73,7 +76,8 @@
                         </ul>
                       </div>
                   </nav>
-            </div>
+           
+			</div>
             <!-- add background image in class INtro_cont-->
 			<div class="row" >
 				<div class="col-12" style="float: left;">
@@ -90,8 +94,8 @@
 					</div>        
 				</div>
 				
-				<div class="col-12" style="float: left;">
-					<div class="d-block d-sm-none hidden_desc container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+				<div class="col-12" style="float: left;" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+					<div class="d-block d-sm-none hidden_desc desc_enhance  container padding" onmouseover="moveBoolF2()" onmouseout="moveBoolT2()">
 						<div class="H_theme_line"></div>
 						<h2 class="padding display-5 headfont">Enhance your Drone maps with AI.</h2>
 						<p>End-to-end platform to collect process, visualize drone data</p>
@@ -737,47 +741,48 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
           
         <!--Dock to right side-->
         <div class="Touch_details col-xs-12 col-sm-12 col-md-6 col-lg-6 ml-auto" >
-          <form action="#" method="POST" id="GetInTouch_form">
-            <div class="form-group"></div>
-            <div class="form-row padding-bottom" >
-              <div class="col">
-                  <input type="text"  class="form-control" name="name_touch" placeholder="Name" required>
-              </div>
-              <div class="col">
-                  <input type="email" class="form-control" name="email_touch" placeholder="Email" required>
-              </div>
-            </div>
-            <div class="form-row padding-bottom" >
-              <div class="col">
-                  <input type="text"  class="form-control" name="company_name" placeholder="Company" required>
-              </div>
-              <div class="col">
-                  <input type="text"  class="form-control" name="industry_name" placeholder="Industry" required>
-              </div>
-            </div>
+          <form action="email.php" method="POST">
+				<div class="form-group"></div>
+				<div class="form-row padding-bottom" >
+				  <div class="col">
+					  <input type="text"  class="form-control" name="name_touch" placeholder="Name" required>
+				  </div>
+				  <div class="col">
+					  <input type="email" class="form-control" name="email_touch" placeholder="Email" required>
+				  </div>
+				</div>
+				<div class="form-row padding-bottom" >
+				  <div class="col">
+					  <input type="text"  class="form-control" name="company_name" placeholder="Company" required>
+				  </div>
+				  <div class="col">
+					  <input type="text"  class="form-control" name="industry_name" placeholder="Industry" required>
+				  </div>
+				</div>
 
-            <div class="form-row padding-bottom">
-              <div class="col">
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-              </div>
-            </div>
-            
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">Upload</span>
-                </div>
-                
-                  <div class="custom-file">
-                  <input type="file" class="custom-file-input" id="inputGroupFile04">
-                  <label class="custom-file-label" for="inputGroupFile04">Choose KML file</label>
-                  </div>
+				<div class="form-row padding-bottom">
+				  <div class="col">
+					  <textarea class="form-control" id="exampleFormControlTextarea1" name ="msg_touch" rows="3" placeholder="Message"></textarea>
+				  </div>
+				</div>
+				
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Upload</span>
+					</div>
+					
+					<div class="custom-file">
+						<input type="file" class="custom-file-input" id="inputGroupFile04">
+						<label class="custom-file-label" for="inputGroupFile04">Choose KML file</label>
+					</div>
 
-                <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button">Submit</button>
-                </div>
-            </div>
+					<div class="input-group-append">
+						<!-- <button class="btn btn-outline-secondary" name="submit" type="submit">Submit</button> -->
+					<input type="submit" value="Send" name = "submit" class="btn btn-outline-secondary" />
+					</div>
+				</div>
 
-          </form>
+			</form>
         </div>
       </div>
             </div>

@@ -91,10 +91,9 @@ width: 100%;
   height: fit-content;
   /*background-color: #00232f;*/
   box-shadow: 3px 3px 5px black;
-  /*background-color: #000b1a;
-  padding-right: 10px;*/
-  opacity: 1;
-
+  #background-color: black;
+  padding-right: 10px;
+  
 }
 
 

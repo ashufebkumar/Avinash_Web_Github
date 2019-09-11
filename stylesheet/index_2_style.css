@@ -1,3 +1,14 @@
+.desc_enhance
+{
+	background-color: black;
+	opacity: .7;
+	filter: alpha(opacity=50);
+	
+}
+
+
+
+
 
 .Pipeline_cont{
     background-size: cover;
