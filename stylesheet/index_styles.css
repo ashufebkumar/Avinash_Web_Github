@@ -1,4 +1,45 @@
 
+.box_main {
+    margin: 20px;
+	padding: 30px;
+	
+}
+.draw_line{
+	border-bottom: 0.5px solid #979797;
+	padding-bottom: 5px;	
+}
+.center-div
+{
+	z-index: 5;
+	padding: 30px;
+	margin:  auto;
+	max-width: 1200px;
+	height: fit-content;
+	background: rgba(0,0,0,0.82);
+	border-radius: 3px;
+	text-align:center;
+	position: relative;
+	
+}
+.box_main1 {
+    margin: 5px;
+	padding: 5px;
+	
+}
+.center-div1
+{
+	z-index: 5;
+	padding: 3px;
+	margin: auto;
+	max-width: 500px;
+	height: fit-content;
+	background: rgba(0,0,0,0.7);
+	border-radius: 3px;
+	text-align:center;
+	position: relative;
+ 
+}
+
 /*nav bar */
 nav
 {
@@ -78,6 +119,10 @@ width: 100%;
   margin:15px;
  
 }
+div.a {
+  text-align: center;
+}
+
 .Intro_desc
 {
   
@@ -91,9 +136,11 @@ width: 100%;
   height: fit-content;
   /*background-color: #00232f;*/
   box-shadow: 3px 3px 5px black;
-  #background-color: black;
-  padding-right: 10px;
+  /*background-color: #000b1a;
+  padding-right: 10px;*/
+  opacity: 1;
   
+
 }
 
 
@@ -147,7 +194,7 @@ width: 100%;
     max-height: 100%;
     min-height: 100%;
     /*background: radial-gradient(circle at 50% 25%, rgba(0,0,0,0.98) 0%,rgba(44, 44, 44,0.95) 100%), url('../source/Svg/Contours.svg') no-repeat;*/
-    background: linear-gradient(to bottom right, rgba(0,0,0,0.93) 200%,transparent 250%),url('https://ik.imagekit.io/1tz106e4j/source/Svg/Contours3_kMJsHHwbE-.png') no-repeat;
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.7) 200%,transparent 250%),url('https://ik.imagekit.io/1tz106e4j/source/image/backgroundcontour_fMacia-PL.png') no-repeat;
 
     background-size: contain, cover;
 }

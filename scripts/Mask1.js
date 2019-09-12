@@ -50,15 +50,6 @@ function moveBoolT()
     move= true;
 }
 
-function moveBoolF2()
-{
-    move = false;
-}
-
-function moveBoolT2()
-{
-    move= false;
-}
 
 
 function checkPos(x,y)

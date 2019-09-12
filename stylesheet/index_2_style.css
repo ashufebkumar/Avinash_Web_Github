@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
 .desc_enhance
 {
 	background-color: black;
@@ -5,8 +7,22 @@
 	filter: alpha(opacity=50);
 	
 }
+.navbar2{
+font-family:Montserrat;
+font-size: 22px;
+color: white;
+/* font-weight:bold;  */
+/* margin: 0% 13%; */
+}
 
 
+.insight{
+font-family:Montserrat;
+font-size: 22px;
+color: white;
+/* font-weight:bold;  */
+margin: 1% 9%;
+}
 
 
 
@@ -134,7 +150,8 @@
     top: 100%;
     float:right;
     width: 150px;
-    margin-right: 20px;
+    margin-right: 35%;
+	margin:-1.5% 43%;
     background: none;
     border: none;
 
@@ -246,7 +263,7 @@
     z-index: 0;
 }
 .knowmore_text{
-
+	
      position:absolute;
      display: block;
      left: 22%;
@@ -262,7 +279,7 @@
 
     position:absolute;
     display: block;
-    color: white;
+    color: black;
     opacity: 1;
 }
 .knowmore:hover .knowmore_text{

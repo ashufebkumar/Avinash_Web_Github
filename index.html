@@ -2,39 +2,35 @@
 <html lang="en">
   <head>
 
-
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!--bootstrap-->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
      <!--font-->
-     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
-	 
-	 
-	 
-	 
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+	
 
      <link rel="stylesheet" href="./stylesheet/main_styles.css">
      <link rel="stylesheet" href="./stylesheet/index_styles.css">
      <link rel="stylesheet" href="./stylesheet/index_2_style.css">
-      <link rel="stylesheet" href="./stylesheet/fonts.css">
+    <link rel="stylesheet" href="./stylesheet/fonts.css">
       <link rel="stylesheet" href="./stylesheet/Medium_slider.css">
 
       <title>DronaMaps</title>
     <link rel="icon" type="image/gif/png" href="./source/image/Title_icon.png">
   </head>
 
-  <body onmousemove="moveMask(event)" >
- <!--
+  <body onmousemove="moveMask(event)">
+
+        <!--
 
         -->
        
 		<div class="Intro_cont container-fluid main_nav_container ">
-			
 			<div class="Nav_identifier Nav_container container" id="Nav_identifier" onmouseover="moveBoolF()" onmouseout="moveBoolT()" >
-
                     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                     <a href="#" class="navbar-brand">
                       <img class="Logo_navbar" src="./source/image/Company_logo.png" alt="logo"  width="50" height ="50">
@@ -48,7 +44,7 @@
                     <div class="collapse navbar-collapse" id="navbarMenu">
                         <ul class="navbar-nav ml-auto" >
 
-                          <li class="nav-item">
+                          <li class="nav-item navbar2" >
                              <div class="dropdown">
                                 <a href='javascript: void(0);' class="nav-link" >Solutions</a>
                                 <div class="dropdown-content">
@@ -59,27 +55,26 @@
                                 </div>
                             </div>
                           </li>
-                            <li class="nav-item">
+                            <li class="nav-item navbar2">
                                 <a href="#" class="nav-link" >Platform</a>
                             </li>
-                          <li class="nav-item">
+                          <li class="nav-item navbar2">
                               <a href="#" class="nav-link" >Stories</a>
                            </li>
                            
-                          <li class="nav-item">
+                          <li class="nav-item navbar2">
                               <a href="./contactUs/contactUs.html" class="nav-link" >Contact us</a>
                            </li>
                            
-                          <li class="nav-item">
+                          <li class="nav-item navbar2">
                               <a href="#" class="nav-link" >Sign in</a>
                            </li>
                         </ul>
                       </div>
                   </nav>
-           
-			</div>
+            </div>
             <!-- add background image in class INtro_cont-->
-			<div class="row" >
+			<!--<div class="row" >
 				<div class="col-12" style="float: left;">
 					<div class="Intro_desc d-none d-sm-block container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
 						<div class="H_theme_line"></div>
@@ -94,8 +89,8 @@
 					</div>        
 				</div>
 				
-				<div class="col-12" style="float: left;" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
-					<div class="d-block d-sm-none hidden_desc desc_enhance  container padding" onmouseover="moveBoolF2()" onmouseout="moveBoolT2()">
+				<div class="col-12" style="float: left;">
+					<div class="d-block d-sm-none hidden_desc container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
 						<div class="H_theme_line"></div>
 						<h2 class="padding display-5 headfont">Enhance your Drone maps with AI.</h2>
 						<p>End-to-end platform to collect process, visualize drone data</p>
@@ -107,7 +102,35 @@
 						</button>
 					</div>        
 				</div>
+			</div> -->
+			
+			<!------------------------------------------------------------Side box bring in middle---------------------------------------------------------------------------------------------------->
+			<br><br><br><br>	
+			<div class="box_main">
+				
+					<div class="center-div" >
+						<p class="draw_line" style="font-family:Oswald; font-size:110px;">Enhance Drone maps with AI</p>
+						<span style="font-family: 'Source Code Pro', monospace;font-size:34px;">Collect .</span> &nbsp&nbsp&nbsp&nbsp&nbsp 
+						<span style="font-family: 'Source Code Pro', monospace;font-size:34px;">Visualise .</span>  &nbsp&nbsp&nbsp&nbsp&nbsp  
+						<span style="font-family: 'Source Code Pro', monospace;font-size:34px;">Share .</span>  &nbsp&nbsp&nbsp&nbsp&nbsp  
+						<span style="font-family: 'Source Code Pro', monospace;font-size:34px;">Analyse .</span> <br><br>
+						<button type="button" class="knowmore">
+							<span class="go" style="position:absolute; display: block"></span>
+							<span  class="knowmore_text white bold rem12">Know more</span>
+							<span class="text_opa_low bold rem12">Know more</span>
+						</button>
+					</div>
+				
 			</div>
+			<div class="box_main1">
+				<div class="container">
+					<div class="center-div1" >
+						<span style="font-family:Montserrat;font-size:48px;">End-to-End</span>
+					</div>
+				</div>
+			</div>
+			<!------------------------------------------------------------Side box bring in middle---------------------------------------------------------------------------------------------------->
+			
         </div>
         
         <div id="Mask" class=" container-fluid"></div>
@@ -116,41 +139,75 @@
       <!--
 
       -->
+		<!--
+        <div class="Comp_cont container padding-top justify-content-center row ">
+            <div class="content">
+				<div class="container row">
+				   
+					<div class="col-12  d-flex justify-content-center">
+					   
 
-      <div class="Comp_cont container padding-top justify-content-center row ">
-          <div class="content">
-            <div class="container row">
-                <!--<div class="col-sm-12 col-md-4"></div>-->
-                <div class="col-12  d-flex justify-content-center">
-                    <!--<img src="source/image/DronaLum1.png" alt="Drona_logo">-->
+						<div class="comp_img">
 
-                    <div class="comp_img">
-
-                    </div>
-                    <!--<div class="glow">
-
-                    </div>-->
-                </div>
-                <!--<div class="col-sm-12 col-md-4"></div>-->
+						</div>
+						
+					</div>
+					
+				</div>
+				  <br>
+				  
+				<div class="container row">
+				    <div class="col-lg-12"><br>
+						<p class="text-center" style="color: #e0e0e0; float: top;">
+							<span class="headfont">Raw data at scale to insights</span><br><br><br>
+							Maps make places on the edges of imagination graspable and placable. As drones become a popular tool for inexpensive data collection,
+							there is a greater need for solutions like ours that can digest this data and create useful information from them.  We empower decision makers
+							with robust insights using a combination of legacy geospatial approaches made more effective with deep learning. Our comprehensive solutions
+							make mapping scalable, accurate, and accessible.
+						</p>
+				    </div>
+				</div>
             </div>
-              <br>
-              <!--<img src="./source/Svg/Contours2.svg" class="contour">-->
-            <div class="container row">
-              <div class="col-lg-12"><br>
-                <p class="text-center" style="color: #e0e0e0; float: top;">
-                    <span class="headfont">Raw data at scale to insights</span><br><br><br>
-                    Maps make places on the edges of imagination graspable and placable. As drones become a popular tool for inexpensive data collection,
-                    there is a greater need for solutions like ours that can digest this data and create useful information from them.  We empower decision makers
-                    with robust insights using a combination of legacy geospatial approaches made more effective with deep learning. Our comprehensive solutions
-                    make mapping scalable, accurate, and accessible.
-                </p>
-              </div>
-            </div>
-          </div>
-      </div>
-      <!--
+        </div>
+      
 
       -->
+	  <!--------------------------------------------------------------2nd page----------------------------------------------------------------------->
+		
+
+		<div class="Comp_cont container padding-top justify-content-center row ">
+				  <div class="content">
+					<div class="row">
+						<!--<div class="col-sm-12 col-md-4"></div>-->
+						<div class="col-12  d-flex justify-content-center">
+							<!--<img src="source/image/DronaLum1.png" alt="Drona_logo">-->
+
+							<div class="comp_img">
+
+							</div>
+							<!--<div class="glow">
+
+							</div>-->
+						</div>
+						<!--<div class="col-sm-12 col-md-4"></div>-->
+					</div>
+					  <br><br><br>
+					  <!--<img src="./source/Svg/Contours2.svg" class="contour">-->
+					<div class="row">
+					  <div class="col-lg-12"><br>
+						<p class="text-center" style="color: #1DCEDE; float: top;">
+							<span class="headfont "; style="font-size: 144px;font-weight:bold; font-family:Franklin Gothic; ">Images to Insights</span><br>
+							<div class="insight">
+							Maps make places on the edges of imagination graspable and placable. Drone Maps empower decision
+							makers with robust insights using a combination of legacy geospatial approaches made more effective with deep learning.
+							</div>
+						</p>
+					  </div>
+					</div>
+				  </div>
+		</div>
+	  
+	  <!--------------------------------------------------------------2nd page----------------------------------------------------------------------->
 
       <!--<div class="Product_cont container-fluid padding justify-content-center" >
           <div style="background: rgba(255,255,255,0.5)">
@@ -707,15 +764,17 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 			
             <div class="row padding-left-right padding-left">
 				<div class="row">
-					<div class="col-sm-6 flex-container">
+					<div class="col-sm-4 flex-container"></div>
+					<div class="col-sm-4 flex-container">
 						
 						<div class="AP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/Govt_of_AP_Logo_Black-min_W6sz1CEs5i.jpg"></a></div>
 						<div class="UP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20UP.png"></a></div>
 					</div>
-					<div class="col-sm-6 flex-container">
+					<div class="col-sm-4 flex-container">
 						<div class="MP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20MP.png"></a></div>
 						<div class="Kotak"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/kot_8q15TWO2w.png"></a></div>
 					</div>
+					<div class="col-sm-4 flex-container"></div>
 				</div>
             </div>
         </div>
@@ -741,48 +800,48 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
           
         <!--Dock to right side-->
         <div class="Touch_details col-xs-12 col-sm-12 col-md-6 col-lg-6 ml-auto" >
-          <form action="email.php" method="POST">
-				<div class="form-group"></div>
-				<div class="form-row padding-bottom" >
-				  <div class="col">
-					  <input type="text"  class="form-control" name="name_touch" placeholder="Name" required>
-				  </div>
-				  <div class="col">
-					  <input type="email" class="form-control" name="email_touch" placeholder="Email" required>
-				  </div>
-				</div>
-				<div class="form-row padding-bottom" >
-				  <div class="col">
-					  <input type="text"  class="form-control" name="company_name" placeholder="Company" required>
-				  </div>
-				  <div class="col">
-					  <input type="text"  class="form-control" name="industry_name" placeholder="Industry" required>
-				  </div>
-				</div>
+          <form action="email.php" method="POST" id="GetInTouch_form">
+            <div class="form-group"></div>
+            <div class="form-row padding-bottom" >
+              <div class="col">
+                  <input type="text"  class="form-control" name="name_touch" placeholder="Name" required>
+              </div>
+              <div class="col">
+                  <input type="email" class="form-control" name="email_touch" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-row padding-bottom" >
+              <div class="col">
+                  <input type="text"  class="form-control" name="company_name" placeholder="Company" required>
+              </div>
+              <div class="col">
+                  <input type="text"  class="form-control" name="industry_name" placeholder="Industry" required>
+              </div>
+            </div>
 
-				<div class="form-row padding-bottom">
-				  <div class="col">
-					  <textarea class="form-control" id="exampleFormControlTextarea1" name ="msg_touch" rows="3" placeholder="Message"></textarea>
-				  </div>
-				</div>
-				
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text">Upload</span>
-					</div>
-					
-					<div class="custom-file">
-						<input type="file" class="custom-file-input" id="inputGroupFile04">
-						<label class="custom-file-label" for="inputGroupFile04">Choose KML file</label>
-					</div>
+            <div class="form-row padding-bottom">
+              <div class="col">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+              </div>
+            </div>
+            
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Upload</span>
+                </div>
+                
+                  <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="inputGroupFile04">
+                  <label class="custom-file-label" for="inputGroupFile04">Choose KML file</label>
+                  </div>
 
-					<div class="input-group-append">
-						<!-- <button class="btn btn-outline-secondary" name="submit" type="submit">Submit</button> -->
-					<input type="submit" value="Send" name = "submit" class="btn btn-outline-secondary" />
-					</div>
-				</div>
+                <div class="input-group-append">
+					<input type="submit" name="submit" value="Sumbit" class="btn btn-outline-secondary">
+					<!-- <button class="btn btn-outline-secondary" type="button">Submit</button> -->
+                </div>
+            </div>
 
-			</form>
+          </form>
         </div>
       </div>
             </div>
