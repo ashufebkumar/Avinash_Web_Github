@@ -1,4 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+/*.plt_box{
+	position: relative;
+	width: 1440px;
+	height: 1024px;
+	margin-top:10%;
+	background: #FFFFFF;
+	
+}*/
+.ptl{  /*Third page plan track */
+	
+	
+	text-align: center;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 95px;
+	letter-spacing: 0.2px;
+	color: #1CCEDE;
+}
+.plt_def{
+	
+	font-family: 'Exo 2', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
 
+	color: #333333;
+}
+.plt_heading{
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 53px;
+
+	color: #505050;
+}
+.plt_heading_def{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 27px;
+
+	color: #505050;
+}
+.controller{
+	position: absolute;
+	width: 41.125rem;
+	height: 12.6875rem;
+	margin-left: 43rem;
+	margin-top: 15rem;
+	
+}
+
+.controller .draw_line{
+	font-family: Oswald;
+	font-style: normal; 
+	font-weight:37.5rem;
+	font-size:3.125rem;
+}
+.controller .def{
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.375rem;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+.controller_hide .draw_line{
+	font-family:Oswald; 
+	font-size:30px;
+}
+.controller_hide .def{
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	text-align:center;
+}
+.controller_hide{
+	margin-top: 10rem;
+}
+.controller_hide .box_main1_ {
+    margin-top: 10px;
+	padding-top: 5px;
+	
+}
+/*------------------------------------------------------------------------------endtoend-solution changes----------------------------------------------------------------------------------------*/
+.center-div1_{
+	z-index: 5;
+	padding: 3px;
+	margin-top: 2rem;
+	max-width: 25rem;
+	height: 4rem;
+	background: rgba(6, 6, 6, 0.82);
+	border-radius: 3px;
+	text-align:center;
+	position: relative;
+ 
+}
+.endtoend_{
+	font-family:Montserrat;
+	font-size:2.5rem;
+	color:black;
+}
+
+.box_main1 {
+    margin-top: 15px;
+	padding: 3px;
+	
+}
+	
+.center-div1
+{
+	z-index: 5;
+	padding: 20px;
+	margin: auto;
+	width: 41.125rem;
+	height:4rem;
+	background: rgba(6, 6, 6, 0.82);
+	border-radius: 3px;
+	text-align:left;
+	position: relative;
+ 
+}
+.endtoend{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.375rem;
+	line-height: 1.6875rem;
+	
+	color: #FFFFFF;
+	
+}
+/*-----------------------------------------------------------------------------------endtoend-solution changes end----------------------------------------------------------------------------------*/
+/*
 .box_main {
     margin: 20px;
 	padding: 30px;
@@ -7,40 +149,31 @@
 .draw_line{
 	border-bottom: 0.5px solid #979797;
 	padding-bottom: 5px;	
-}
+}*/
 .center-div
 {
 	z-index: 5;
 	padding: 30px;
 	margin:  auto;
-	max-width: 1200px;
+	max-width: 71.5625rem;
 	height: fit-content;
-	background: rgba(0,0,0,0.82);
+	background: rgba(6, 6, 6, 0.82);
 	border-radius: 3px;
-	text-align:center;
+	
 	position: relative;
 	
-}
-.box_main1 {
-    margin: 5px;
-	padding: 5px;
-	
-}
-.center-div1
-{
-	z-index: 5;
-	padding: 3px;
-	margin: auto;
-	max-width: 500px;
-	height: fit-content;
-	background: rgba(0,0,0,0.7);
-	border-radius: 3px;
-	text-align:center;
-	position: relative;
- 
 }
 
+
 /*nav bar */
+.button{
+	border:0;
+	border-radius:0;
+	background:#1CCEDE;;
+	color:azure;
+	transition:transform .2s;
+}
+
 nav
 {
   z-index: 5;
@@ -122,27 +255,119 @@ width: 100%;
 div.a {
   text-align: center;
 }
-
+.Intro_desc .def_drone{
+	font-family: Oswald;
+	font-style: normal; 
+	font-weight:37.5rem;
+	font-size:3.125rem;
+}
+.Intro_desc .def_gis{
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.375rem;
+	font-style: normal;
+	font-weight: normal;
+	
+	line-height: 27px;
+	color: #FFFFFF;
+}
+.Intro_desc1 .endtoend{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2rem;
+	line-height: 1.6875rem;
+	
+	color: #FFFFFF;
+}
+.Intro_desc1{
+	position: relative;
+	z-index: 5;
+	margin-top: 2%;
+	float: right;
+	margin-right: 0%;
+	width: 35rem;
+	height: fit-content;
+	background: rgba(6, 6, 6, 0.82);
+	/*background-color: #00232f;*/
+	/*box-shadow: 3px 3px 5px black;*/
+	/*background-color: #000b1a;
+	padding-right: 10px;*/
+	opacity: 1;
+}
 .Intro_desc
 {
-  
-  
   position: relative;
   z-index: 5;
-  margin-top: 10%;
+  margin-top: 25%;
   float: right;
-  margin-right: 5%;
-  width: 32%;
+  margin-right: 0%;
+  width: 35rem;
   height: fit-content;
+  background: rgba(6, 6, 6, 0.82);
   /*background-color: #00232f;*/
-  box-shadow: 3px 3px 5px black;
+  /*box-shadow: 3px 3px 5px black;*/
   /*background-color: #000b1a;
   padding-right: 10px;*/
   opacity: 1;
   
 
 }
+.Intro_desc_ .def_drone{
+	font-family: Oswald;
+	font-style: normal; 
+	font-weight:3rem;
+	font-size:1.7rem;
+}
+.Intro_desc_ .def_gis{
+	font-family: 'Montserrat', sans-serif;
+	font-size:1rem;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+.Intro_desc1_ .endtoend{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.3rem;
+	line-height: 1.6875rem;
+	
+	color: #FFFFFF;
+}
+.Intro_desc1_{
+	position: relative;
+	z-index: 5;
+	margin-top: 10%;
+	float: right;
+	margin-right: 0%;
+	width: 20rem;
+	height: fit-content;
+	background: rgba(6, 6, 6, 0.82);
+	/*background-color: #00232f;*/
+	/*box-shadow: 3px 3px 5px black;*/
+	/*background-color: #000b1a;
+	padding-right: 10px;*/
+	opacity: 1;
+}
+.Intro_desc_
+{
+  position: relative;
+  z-index: 5;
+  margin-top: 40%;
+  float: right;
+  margin-right: 0%;
+  width: 20rem;
+  height: fit-content;
+  background: rgba(6, 6, 6, 0.82);
+  /*background-color: #00232f;*/
+  /*box-shadow: 3px 3px 5px black;*/
+  /*background-color: #000b1a;
+  padding-right: 10px;*/
+  opacity: 1;
+  
 
+}
 
 
 .Intro_desc button
@@ -209,7 +434,7 @@ height: 100%;
     position: relative;
     height: 30vh;
     width: 30vh;
-    background: url("https://ik.imagekit.io/1tz106e4j/source/Svg/logogwitha1_6Nux5gizz.svg") no-repeat;
+    background: url("https://ik.imagekit.io/1tz106e4j/source/image/Company_logo_jVbGSkB-_n.png") no-repeat;
 
     background-size: contain;
     filter: drop-shadow(0 0 25px rgb(195, 252, 255));

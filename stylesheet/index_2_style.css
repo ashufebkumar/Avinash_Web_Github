@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 .desc_enhance
 {
 	background-color: black;
@@ -15,16 +17,47 @@ color: white;
 /* margin: 0% 13%; */
 }
 
-
-.insight{
-font-family:Montserrat;
-font-size: 22px;
-color: white;
-/* font-weight:bold;  */
+.img_insi .insight2{
+font-size: 30px;
+font-weight:bold;
+font-family:Franklin Gothic;
 margin: 1% 9%;
 }
+.img_insi .insight{
+font-family:Montserrat;
+font-size: 15px;
+color: white;
+/* font-weight:bold;  */
+margin: 1% 18%;
+}
 
+.insight{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
 
+color: #FFFFFF;
+/* font-weight:bold;  */
+margin: 1% 18%;
+}
+.insight2{
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 74px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #1CCEDE;
+margin: 1% 9%;
+}
 
 .Pipeline_cont{
     background-size: cover;
@@ -135,11 +168,12 @@ margin: 1% 9%;
     top: 7%;
     float: left;
     transition: all 0.5s;
-
+	margin:-5% 60%;
 }
 .desc .knowmore .go{
-    background-color: #ffffff;
+    background-color: #1CCEDE;
     box-shadow: 1px 1px 8px #ffffff;
+	
 }
 .desc .knowmore:hover{
 
@@ -151,18 +185,23 @@ margin: 1% 9%;
     float:right;
     width: 150px;
     margin-right: 35%;
-	margin:-1.5% 43%;
+	margin:-6% 72%;
     background: none;
     border: none;
-
+	
 }
+.Intro_desc_ .knowmore{
+	margin:-15% 25%;
+	
+}
+
 .go{
     border-radius: 100px;
     height: 40px;
     width: 40px;
     /*background: red;#327166; #58ad9f;*/
     /*background-color: #007acc;#3a8477 rgba(143, 238, 255, 0.96);*/
-    background-color: #31bfe5;
+    background-color: #1CCEDE;
     transform: translateX(20px);
     box-shadow: 1px 1px 8px #31bfe5;
     padding-left: 25px;
@@ -170,6 +209,7 @@ margin: 1% 9%;
     left: -5px;
     text-align: left;
     transition: all 0.5s ease;
+	
 }
 .knowmoresetag{
     display: grid;
@@ -247,22 +287,23 @@ margin: 1% 9%;
     margin: 20px;
 }
 .text_opa{
-
+	
     position: relative;
-    color: white;
+    color: #1CCEDE;
     opacity: 1;
     display: block;
     z-index: 0;
 }
 .text_opa_low{
-
+	
     position: relative;
-    color: white;
+    color: #1CCEDE;
     opacity: 0.5;
     display: block;
     z-index: 0;
 }
 .knowmore_text{
+	font-family: 'Montserrat', sans-serif;
 	
      position:absolute;
      display: block;
@@ -270,16 +311,16 @@ margin: 1% 9%;
      clip-path: circle(20px at 0% 50%);
      -webkit-clip-path: circle(20px at 0% 50%);
      background: transparent;
-     color: blue;
+     color: #1CCEDE;
      opacity: 1;
      transition: all 0.5s ease;
      z-index: 1;
  }
 .white{
-
+	
     position:absolute;
     display: block;
-    color: black;
+    color: black;  /*hover text color change from here!*/
     opacity: 1;
 }
 .knowmore:hover .knowmore_text{

@@ -7,21 +7,32 @@
     
     <!--bootstrap-->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	 <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" >
+	 <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" >
      <!--font-->
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
 	
+	<!-------for footer-------->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!--------------->
+
+	
 
      <link rel="stylesheet" href="./stylesheet/main_styles.css">
      <link rel="stylesheet" href="./stylesheet/index_styles.css">
      <link rel="stylesheet" href="./stylesheet/index_2_style.css">
-    <link rel="stylesheet" href="./stylesheet/fonts.css">
-      <link rel="stylesheet" href="./stylesheet/Medium_slider.css">
+     <link rel="stylesheet" href="./stylesheet/fonts.css">
+     <link rel="stylesheet" href="./stylesheet/Medium_slider.css">
 
       <title>DronaMaps</title>
     <link rel="icon" type="image/gif/png" href="./source/image/Title_icon.png">
-  </head>
+	</head>
 
   <body onmousemove="moveMask(event)">
 
@@ -30,11 +41,12 @@
         -->
        
 		<div class="Intro_cont container-fluid main_nav_container ">
+			
 			<div class="Nav_identifier Nav_container container" id="Nav_identifier" onmouseover="moveBoolF()" onmouseout="moveBoolT()" >
-                    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
                     <a href="#" class="navbar-brand">
-                      <img class="Logo_navbar" src="./source/image/Company_logo.png" alt="logo"  width="50" height ="50">
-                     </a>
+                      <img class="Logo_navbar" src="./source/image/Company_logo.png" alt="logo"  width="50" height ="50"> DronaMaps
+                    </a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -56,23 +68,24 @@
                             </div>
                           </li>
                             <li class="nav-item navbar2">
-                                <a href="#" class="nav-link" >Platform</a>
+                                <a href="#" class="nav-link" >Blog</a>
                             </li>
                           <li class="nav-item navbar2">
-                              <a href="#" class="nav-link" >Stories</a>
+                              <a href="#" class="nav-link" >Contact Us</a>
                            </li>
                            
                           <li class="nav-item navbar2">
-                              <a href="./contactUs/contactUs.html" class="nav-link" >Contact us</a>
+                              <a href="./contactUs/contactUs.html" class="nav-link btn btn-outline-secondary btn-sm" >Login</a>
                            </li>
                            
-                          <li class="nav-item navbar2">
-                              <a href="#" class="nav-link" >Sign in</a>
+                          <li class="nav-item navbar2  ">
+                              <a href="#" class="nav-link btn btn-info btn-sm" style="color:black; font-weight:bold;">Get a Quote</a>
                            </li>
                         </ul>
                       </div>
                   </nav>
             </div>
+			
             <!-- add background image in class INtro_cont-->
 			<!--<div class="row" >
 				<div class="col-12" style="float: left;">
@@ -103,33 +116,109 @@
 					</div>        
 				</div>
 			</div> -->
-			
-			<!------------------------------------------------------------Side box bring in middle---------------------------------------------------------------------------------------------------->
-			<br><br><br><br>	
-			<div class="box_main">
-				
-					<div class="center-div" >
-						<p class="draw_line" style="font-family:Oswald; font-size:110px;">Enhance Drone maps with AI</p>
-						<span style="font-family: 'Source Code Pro', monospace;font-size:34px;">Collect .</span> &nbsp&nbsp&nbsp&nbsp&nbsp 
-						<span style="font-family: 'Source Code Pro', monospace;font-size:34px;">Visualise .</span>  &nbsp&nbsp&nbsp&nbsp&nbsp  
-						<span style="font-family: 'Source Code Pro', monospace;font-size:34px;">Share .</span>  &nbsp&nbsp&nbsp&nbsp&nbsp  
-						<span style="font-family: 'Source Code Pro', monospace;font-size:34px;">Analyse .</span> <br><br>
+			<div class="row" >
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc d-none d-sm-block  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						
+						<p class="def_drone">Enhance Drone Maps with AI</p>
+						<span class="def_gis">Collect . Visualise . Share . Analyse .</span>
+						<br><br><br>
 						<button type="button" class="knowmore">
 							<span class="go" style="position:absolute; display: block"></span>
 							<span  class="knowmore_text white bold rem12">Know more</span>
 							<span class="text_opa_low bold rem12">Know more</span>
 						</button>
-					</div>
+					</div> 
+					
+				</div>
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc1 d-none d-sm-block  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						<p class="endtoend">An end-to-end solution for your Drone Mapping needs</p>
+					</div> 
+				</div>
+				
+				
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc_  d-block d-sm-none  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						
+						<p class="def_drone">Enhance Drone Maps with AI</p>
+						<span class="def_gis">Collect . Visualise . Share . Analyse .</span>
+						<br><br><br>
+						<button type="button" class="knowmore">
+							<span class="go" style="position:absolute; display: block"></span>
+							<span  class="knowmore_text white bold rem12">Know more</span>
+							<span class="text_opa_low bold rem12">Know more</span>
+						</button>
+					</div> 
+					
+				</div>
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc1_ d-block d-sm-none  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						<p class="endtoend">An end-to-end solution for your Drone Mapping needs</p>
+					</div> 
+				</div>
 				
 			</div>
-			<div class="box_main1">
-				<div class="container">
-					<div class="center-div1" >
-						<span style="font-family:Montserrat;font-size:48px;">End-to-End</span>
+			<!------------------------------------------------------------Side box bring right down ---------------------------------------------------------------------------------------------------->
+			<!--<div class="row">
+				<div class="controller d-none d-sm-block">
+					<div class="col-sm-12 ">
+						<div class=" box_main">
+							
+								<div class="center-div  container padding">
+									<p class="draw_line" >Enhance Drone maps with AI</p>
+									<span class="def">Collect . Visualise . Share . Analyse .</span>
+									<br><br>
+									
+									<button type="button" class="knowmore">
+										<span class="go" style="position:absolute; display: block"></span>
+										<span  class="knowmore_text white bold rem12">Know more</span>
+										<span class="text_opa_low bold rem12" >Know more</span>
+									</button>
+								
+								</div>	
+							
+						</div>
+					</div>
+				
+					<div class="col-sm-12">
+						<div class=" box_main1 ">
+							
+							<div class="center-div1 container padding">
+								<p class="endtoend">An end-to-end solution for your Drone Mapping needs</p>
+							</div>
+							 
+						</div>
 					</div>
 				</div>
 			</div>
-			<!------------------------------------------------------------Side box bring in middle---------------------------------------------------------------------------------------------------->
+			
+			<div class="controller_hide d-block d-sm-none">
+				<div class="box_main">
+					
+						<div class="center-div" >
+							<p class="draw_line" >Enhance Drone maps with AI</p>
+							
+							<span class="def">Collect . Visualise . Share . Analyse .</span>
+							<br><br>
+							
+							<button type="button" class="knowmore">
+								<span class="go" style="position:absolute; display: block"></span>
+								<span  class="knowmore_text white bold rem12" >Know more</span>
+								<span class="text_opa_low bold rem12">Know more</span>
+							</button>
+							
+						</div>	
+					
+				</div>
+				<div class="box_main1_">
+					<div class="center-div1_">
+						<p class="endtoend">An end-to-end solution for your Drone Mapping needs</p>
+					</div>
+					 
+				</div>
+			</div> -->
+			<!------------------------------------------------------------Side box bring in middle, endtoend-solution ---------------------------------------------------------------------------------------------------->
 			
         </div>
         
@@ -193,10 +282,26 @@
 					</div>
 					  <br><br><br>
 					  <!--<img src="./source/Svg/Contours2.svg" class="contour">-->
-					<div class="row">
+					<div class="row d-none d-sm-block">
 					  <div class="col-lg-12"><br>
 						<p class="text-center" style="color: #1DCEDE; float: top;">
-							<span class="headfont "; style="font-size: 144px;font-weight:bold; font-family:Franklin Gothic; ">Images to Insights</span><br>
+							<!-- <img src="./source/Svg/EnhanceDroneMaps.svg" > -->
+							<span class="insight2 ">Images to Insights</span><br>
+							<div class="insight">
+								Maps make places on the edges of imagination graspable and placable. 
+							</div>
+							<div class="insight">
+								Drone Maps empower decision
+								makers with robust insights using a combination of legacy geospatial approaches made more effective with deep learning.
+							</div>
+						</p>
+					  </div>
+					</div>
+					
+					<div class="img_insi row d-block d-sm-none">
+					  <div class="col-lg-12"><br>
+						<p class="text-center" style="color: #1DCEDE; float: top;">
+							<span class="insight2 ">Images to Insights</span><br>
 							<div class="insight">
 							Maps make places on the edges of imagination graspable and placable. Drone Maps empower decision
 							makers with robust insights using a combination of legacy geospatial approaches made more effective with deep learning.
@@ -204,6 +309,7 @@
 						</p>
 					  </div>
 					</div>
+					
 				  </div>
 		</div>
 	  
@@ -244,9 +350,69 @@
 
       -->
 
-      <!--
-  
-      -->
+      <!-------------------------------------------------------------------------------------new page added from here ------------------------------------------------------------------------------->
+	<br><br>
+	<div class="container">
+		<div class="plt_box">
+			<div class="row">
+				<div class="col-lg-12 col-xs-12 col-centered">
+					<p class="ptl">Plan. Track. Impact.</p>
+					<p class="plt_def">with DroneMaps</p>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-lg-4 col-xs-4 col-centered">
+					<div class="well">
+						
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/Group_1_BdzZKuyABl.svg" > Highly Dense Maps</p>
+						<p class="plt_heading_def">
+							Create Maps in 2D and 3D.
+							Extract dense contours and
+							digital elevation models
+						</p><br>
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/Group_2_vsibCISnA3.svg" > Annotate</p>
+						<p class="plt_heading_def">
+							Make notes, highlight,
+							and annotations about 
+							observations on the field. 
+						</p><br>
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/noun_barchart_ZwscgCK9Yj.svg" > Progress Tracking</p>
+						<p class="plt_heading_def">
+							Flexible and highly granular
+							change tracking applications 
+							on drone based maps. 
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-xs-2 col-centered"></div> 
+				<div class="col-lg-5 col-xs-5 col-centered">
+					<div class="well">
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/noun_measure_1_MuaJJo0Wet.svg" > Measure</p>
+						<p class="plt_heading_def">
+							Supports Live measurements
+							in 2D and 3D, all in your 
+							web browser. 
+						</p><br>
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/noun_measure_2_nNcCvlKKy.svg" > AI Powered Analytics</p>
+						<p class="plt_heading_def">
+							Geotag assets like roads, 
+							plot boundaries, street 
+							lights, and footpaths. 
+						</p><br>
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/noun_Sharing__Hto81_8pA.svg" > Share with your team</p>
+						<p class="plt_heading_def">
+							Share the analytics,
+							annotations, insights,
+							and map outputs with your team. 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	  <!-------------------------------------------------------------------------------------new page ended from here ------------------------------------------------------------------------------->
 	 <!------------------------------------------------------------------------- modified section start------------------------------------------------------------------------------------------------------------------------->
         
 
@@ -305,12 +471,13 @@
 					applying ground control points
 					</p>
 					</span>
-					<button type="button" class="knowmore" style="margin:5%;">
-						<span class="go" style="position:absolute; display: block"></span>
-						<span style="" class="bold rem12 knowmore_text">Know more</span>
-						<span class="text_opa bold rem12">Know more</span>
-					</button>
-
+					<div class="">
+						<button type="button" class="knowmore pos">
+							<span class="go" style="position:absolute; display: block"></span>
+							<span  class="knowmore_text white bold rem12" >Know more</span>
+							<span class="text_opa_low bold rem12">Know more</span>
+						</button>
+					</div>
 				</div>
 			</div>
 <!-------------------------------------------------------------------------------------------- Modified section end ------------------------------------------------------------------------------------------------->
@@ -515,7 +682,7 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
         <div class="container-fluid Blog_section">
             <div class="container padding-lg-top">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding ">
-                    <h2 class="display-4 text-center headfont">Stories That Inspire Us</h2>
+                    <h2 class="display-4 text-center headfont" style="font-family:Oswald; ">Impact</h2>
                 </div>
             </div>
             <div id="Medium_blog" class="Medium_blog carousel slide" data-ride="false">
@@ -670,36 +837,38 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 		
 		
 		
-		<!------------------------------------------------------------------------------Modified section image link added from imagekit.io start-------------------------------------------------------------------------------------------------------------------->
+		<!------------------------------------------------------------------------------black and white image link added from imagekit.io start-------------------------------------------------------------------------------------------------------------------->
         <div class="Media_mention container d-none d-sm-block">
             <div class="row">
                 <div class="container padding-lg-top">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-                        <h2 class="display-4 text-center headfont">Media Mentions</h2>
+                        <h2 class="display-4 text-center headfont" style="font-family:Oswald;font-weight:78px">Media Mentions</h2>
                     </div>
                 </div>
                 <div class="flex-container">
-                    <div><a href="http://www.businessworld.in/article/i5-Summit-IIM-And-IIT-Indore/25-06-2018-152901/" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/unnamed_AcmhkIAxC.jpg"></a></div>
-                    <div class="Fd"><a href="https://factordaily.com/india-drone-marketmap/"><img src="./source/Svg/factoryDaily.svg" target="_blank"></a></div>
-                    <div class="cnbc"><a href="https://www.cnbctv18.com/videos/startup/young-turks-to-watch-out-for-in-2019-1811081.htm" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/CNBC_Logo_NFrd7J0z4.png"></a></div>
+                    <div><a href="https://www.business-standard.com/article/opinion/uavs-can-map-better-town-planning-118082201047_1.html" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/Business-Standard_qstfXwjRF.svg"></a></div>
+					<div class="cnbc"><a href="https://www.cnbctv18.com/videos/startup/young-turks-to-watch-out-for-in-2019-1811081.htm" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/CNBCLogo_kltB3bSWn.svg"></a></div>
+					<div class="inc42"><a href="https://inc42.com/buzz/nasscom-innotrek-2018-meet-the-40-startups-heading-to-silicon-valley/" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Inc42Logo__DzR6YE5ay.svg"></a></div>
                     <div class="hindu"><a href="https://www.thehindu.com/sci-tech/3d-maps-at-your-fingertips/article24035684.ece" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/HINDU_Logo-min_KlSN0P9dkO.png"></a></div>
-                    <div class="your_story"><a href="https://yourstory.com/2018/05/early-stage-startup-jiogennexts-summer-cohort" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/output-onlinejpgtools_rRUgu22Tl.jpg"></a></div>
-                    <div class="inc42"><a href="https://inc42.com/buzz/nasscom-innotrek-2018-meet-the-40-startups-heading-to-silicon-valley/" target="_blank"><img src="./source/Svg/inc_42_m2.svg"></a></div>
+                    <div class="your_story"><a href="https://yourstory.com/2018/05/early-stage-startup-jiogennexts-summer-cohort" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/YourStoryLogo_yZ6EFfnGd.svg"></a></div>
+					
+                    <div class="Egov"><a href="https://egov.eletsonline.com/2019/05/dronamaps-deploying-drones-as-geospatial-data-gathering-tool-for-rural-and-urban-development/"><img src="https://ik.imagekit.io/1tz106e4j/Egove_logo_iPv0AiTIcr.jpg" target="_blank"></a></div>
+                    <div class="toi"><a href="https://timesofindia.indiatimes.com/city/bengaluru/drones-to-survey-properties-in-five-wards/articleshow/69881477.cms"><img src="https://ik.imagekit.io/1tz106e4j/TOI_qHEQD0gIHM.png" target="_blank"></a></div>
                 </div>
             </div>
 			
             <div class="row">
                 <div class="container padding-lg-top partners&clients">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2 class="display-4 text-center headfont heading">Partners & Clients</h2><br><br>
+                        <h2 class="display-4 text-center headfont heading" style="font-family:Oswald;font-weight:78px">Partners & Clients</h2><br><br>
                     </div>
                 </div>
                 <div class="flex-container">
-                    <div class="Jhu"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/Hopkins_logo_horizontal-min_ZVM3ith4r.png"></a></div>
-                    <div class="Reliance"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/partners/Reliance_logo-min_tczE7Ug9Z.jpg"></a></div>
-                    <div class="esri"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/esri_logo_black_ntdnvnrjWg.png"></a></div>
-                    <div class="Sap"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/SAP_Logo-min_vHm3rggMp.jpg"></a></div>
-                    <div class="Jio"><a href="#" target="_blank"><img src="./source/image/partners/jio-gennext.png"></a></div>
+                    <div class="Jhu"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Hopkinslogovertical_5yqOLyJM7Q.svg"></a></div>
+                    <div class="Reliance"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Reliance_Industries_Logowhite_WS9NtA_gGZ.svg"></a></div>
+                    <div class="esri"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/esrilogoblack_a3SFWJuc5-.svg"></a></div>
+                    <div class="Sap"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SAPLogo_7p0bRdWri8.svg"></a></div>
+                    <div class="Jio"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/HUBlogo__aTd4M4t4H.svg"></a></div>
                 </div>
             </div>
 			
@@ -707,10 +876,10 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
                 <div class="flex-container">
 
                     
-                    <div class="AP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/Govt_of_AP_Logo_Black-min_W6sz1CEs5i.jpg"></a></div>
+                    <div class="AP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/GovtofAPLogoBlack_Ykk3NJqe21.svg"></a></div>
                     <div class="UP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20UP.png"></a></div>
-                    <div class="MP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20MP.png"></a></div>
-                    <div class="Kotak"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/kot_8q15TWO2w.png"></a></div>
+                    <div class="MP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/madhya-pradesh-logo_3xOttShYRS.png"></a></div>
+                    <div class="Kotak"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Kotaklogo_DK9b7ChiC.svg"></a></div>
 
                 </div>
             </div>
@@ -718,26 +887,26 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 		<!------------------------------------------------------------------------------Modified section end-------------------------------------------------------------------------------------------------------------------->
 		
 		
-		<!------------------------------------------------------------------------------------To make client and partner icon big ---------------------------------------------------------------------------------------------------------------->
+		<!------------------------------------------------------------------------------------mobile responsive ---------------------------------------------------------------------------------------------------------------->
 		
 		
 		<div class="Media_mention container d-block d-sm-none mob_res">
             <div class="row">
                 <div class="container padding-lg-top">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-                        <h2 class="display-4 text-center headfont">Media Mentions</h2>
+                        <h2 class="display-4 text-center headfont" style="font-family:Oswald;font-weight:78px">Media Mentions</h2>
                     </div>
                 </div>
                 <div class="row">
 					<div class="col-sm-12 flex-container">
-						<div><a href="http://www.businessworld.in/article/i5-Summit-IIM-And-IIT-Indore/25-06-2018-152901/" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/unnamed_AcmhkIAxC.jpg"></a></div>
-						<div class="Fd"><a href="https://factordaily.com/india-drone-marketmap/"><img src="./source/Svg/factoryDaily.svg" target="_blank"></a></div>
-						<div class="cnbc"><a href="https://www.cnbctv18.com/videos/startup/young-turks-to-watch-out-for-in-2019-1811081.htm" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/CNBC_Logo_NFrd7J0z4.png"></a></div>
+						<div><a href="https://www.business-standard.com/article/opinion/uavs-can-map-better-town-planning-118082201047_1.html" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/Business-Standard_qstfXwjRF.svg"></a></div>
+						<div class="Fd"><a href="https://factordaily.com/india-drone-marketmap/"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/factordaily-logo_t3qnqrk_5XU88VZwqz.svg" target="_blank"></a></div>
+						<div class="cnbc"><a href="https://www.cnbctv18.com/videos/startup/young-turks-to-watch-out-for-in-2019-1811081.htm" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/CNBCLogo_kltB3bSWn.svg"></a></div>
 					</div>
 					<div class="col-sm-12 flex-container">
 						<div class="hindu"><a href="https://www.thehindu.com/sci-tech/3d-maps-at-your-fingertips/article24035684.ece" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/HINDU_Logo-min_KlSN0P9dkO.png"></a></div>
-						<div class="your_story"><a href="https://yourstory.com/2018/05/early-stage-startup-jiogennexts-summer-cohort" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/output-onlinejpgtools_rRUgu22Tl.jpg"></a></div>
-						<div class="inc42"><a href="https://inc42.com/buzz/nasscom-innotrek-2018-meet-the-40-startups-heading-to-silicon-valley/" target="_blank"><img src="./source/Svg/inc_42_m2.svg"></a></div>
+						<div class="your_story"><a href="https://yourstory.com/2018/05/early-stage-startup-jiogennexts-summer-cohort" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/YourStoryLogo_yZ6EFfnGd.svg"></a></div>
+						<div class="inc42"><a href="https://inc42.com/buzz/nasscom-innotrek-2018-meet-the-40-startups-heading-to-silicon-valley/" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Inc42Logo__DzR6YE5ay.svg"></a></div>
 					</div>
 				</div>
             </div>
@@ -745,41 +914,42 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
             <div class="row">
                 <div class="container padding-lg-top partners&clients">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h2 class="display-4 text-center headfont heading">Partners & Clients</h2><br><br>
+                        <h2 class="display-4 text-center headfont heading" style="font-family:Oswald;font-weight:78px">Partners & Clients</h2><br><br>
                     </div>
                 </div>
 				<div class="row">
-					<div class="col-sm-8 flex-container">
-						<div class="Jhu"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/Hopkins_logo_horizontal-min_ZVM3ith4r.png"></a></div>
-						<div class="Reliance"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/partners/Reliance_logo-min_tczE7Ug9Z.jpg"></a></div>
-						<div class="esri"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/esri_logo_black_ntdnvnrjWg.png"></a></div>
+					<div class="col-sm-6 flex-container">
+						<div class="Jhu"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Hopkinslogovertical_5yqOLyJM7Q.svg"></a></div>
+						<div class="Reliance"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Reliance_Industries_Logowhite_WS9NtA_gGZ.svg"></a></div>
+						<div class="esri"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/esrilogoblack_a3SFWJuc5-.svg"></a></div>
 					</div>
-					<div class="col-sm-4 flex-container">
-						<div class="Sap"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/SAP_Logo-min_vHm3rggMp.jpg"></a></div>
-						<div class="Jio"><a href="#" target="_blank"><img src="./source/image/partners/jio-gennext.png"></a></div>
+					<div class="col-sm-6 flex-container">
+						<div class="Sap"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SAPLogo_7p0bRdWri8.svg"></a></div>
+						<div class="Jio"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/HUBlogo__aTd4M4t4H.svg"></a></div>
+						<div class="UP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20UP.png"></a></div>
 					</div>
 						
 				</div>
             </div>
 			
-            <div class="row padding-left-right padding-left">
+            <div class="row ">
 				<div class="row">
-					<div class="col-sm-4 flex-container"></div>
-					<div class="col-sm-4 flex-container">
+					
+					<div class="col-sm-6 flex-container">
 						
-						<div class="AP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/Govt_of_AP_Logo_Black-min_W6sz1CEs5i.jpg"></a></div>
-						<div class="UP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20UP.png"></a></div>
+						<div class="AP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/GovtofAPLogoBlack_Ykk3NJqe21.svg"></a></div>
+						<div class="MP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/madhya-pradesh-logo_3xOttShYRS.png"></a></div>
+						<div class="Kotak"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Kotaklogo_DK9b7ChiC.svg"></a></div>
 					</div>
-					<div class="col-sm-4 flex-container">
-						<div class="MP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20MP.png"></a></div>
-						<div class="Kotak"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/kot_8q15TWO2w.png"></a></div>
+					<div class="col-sm-6 flex-container">
+						
 					</div>
-					<div class="col-sm-4 flex-container"></div>
+					
 				</div>
             </div>
         </div>
 		
-		<!------------------------------------------------------------------------------------To make client and partner icon big ---------------------------------------------------------------------------------------------------------------->
+		<!------------------------------------------------------------------------------------Mobile responsive end ---------------------------------------------------------------------------------------------------------------->
         
     <div class="Touch_cont container-fluid">
         <div class="row jumbotron">
@@ -850,38 +1020,86 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
       <!--
 
       -->
-      <footer id="footer" >
-          <div class="row container-fluid">   
-           <div class="col-md-2 padding ">
-              <img class="logo" src="./source/image/logo.png" alt="Logo">
-           </div>
-           <div class="col-md-6 padding ">
-              <table>
-                  <tr>
-                      <td> <a href="">PRODUCT</a></td>
-                      <td> <a href="">ABOUT</a></td>
-                  </tr>
-                  <tr>
-                      <td><a href="">SOLUTIONS</a></td>
-                      <td><a href="">NEWS</a></td>
-                  </tr>
-                  <tr>
-                      <td><a href="">BLOG</a></td>
-                  </tr>
-              </table>
-          </div>
-          <div class="col-md-4 padding" >
-              <ul class="copyright">
-  
-                  <li><a href=""><img class ="icons" src="./source/image/Facebook-logo3.png" alt="Facebook"></a>&nbsp; &nbsp;<a href=""><img class ="icons" src="./source/image/Twitter_logo_2.png" alt="Twitter"></a>&nbsp; &nbsp;<a href=""><img class="icons" src="./source/image/8.png" alt="LinkedIn"></a></li>
-                  <li>Join our Community</li>
-                  <li>Subscribe to our newsletter</li><br><br>
-                  <li>Terms and Policy</li>
-                  <li>&copy; 2019 Dronamaps, all right reserved</li>
-              </ul>
-          </div>
-        </div>
-      </footer>
+		<!---------footer code------------>
+	<section class="footers bg-light pt-5 pb-3">
+		<div class=" pt-5 " style="background: rgba(6, 6, 6, 0.82);">
+		   <div class="row">
+			   <div class="col-xs-12 col-sm-6 col-md-2 footers-one d-none d-sm-block">
+		   <div class="footers-logo footimg">
+			   <img src="https://ik.imagekit.io/1tz106e4j/source/Svg/logogwitha1_6Nux5gizz.svg" alt="Logo" style="width:100px;">
+		   </div>
+		 
+		   
+		</div>
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-two d-none d-sm-block">
+		   <h5 class="foothead">RESOURCES </h5>
+		   <ul class="list-unstyled "  >
+		<li><a class="footli" href="maintenance.html">For Urban Areas</a></li>
+		<li><a class="footli" href="contact.html">For Agriculture</a></li>
+		<li><a class="footli" href="about.html">Join The Network</a></li>
+		<li><a class="footli" href="about.html">Help</a></li>
+		<!-- <li><a href="about.html">Post Requirements</a></li> -->
+		</ul>
+		</div>
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-three d-none d-sm-block">
+		   <h5 class="foothead">COMPANY </h5>
+		   <ul class="list-unstyled">
+		<li><a class="footli" href="maintenance.html">For Urban Areas</a></li>
+		<li><a class="footli" href="contact.html">For Agriculture</a></li>
+		<li><a class="footli" href="about.html">Join The Network</a></li>
+		<li><a class="footli" href="about.html">Help</a></li>
+		<!-- <li><a href="about.html">Services</a></li> -->
+		</ul>
+		</div>
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-four d-none d-sm-block">
+		   <h5 class="foothead">MORE </h5>
+		   <ul class="list-unstyled">
+		<li><a class="footli" href="maintenance.html">For Urban Areas</a></li>
+		<li><a class="footli" href="contact.html">For Agriculture</a></li>
+		<li><a class="footli" href="about.html">Join The Network</a></li>
+		<li><a class="footli" href="about.html">Help</a></li>
+		<!-- <li><a href="about.html">User Agreement</a></li> -->
+		</ul>
+		</div>
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-five footli d-none d-sm-block">
+		   <h5 class="foothead">FIND US ON </h5>
+		   <ul class="list-unstyled ">
+		<div class="social-icons ">
+
+		<a href="https://www.facebook.com/" style="color:#DADADA"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+		<a href="https://twitter.com/" style="color:#DADADA"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+		<a href="https://plus.google.com/" style="color:#DADADA"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+		<a href="mailto:bootsnipp@gmail.com" style="color:#DADADA"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+		<br>
+
+		<i class="fa fa-home" style="color:#1CCEDE" aria-hidden="true"></i><a class="footli" style="color:#DADADA; font-size:12px;"> Plot No1, Udyog Vihar Phase 1, Dundahera Village, Sector 20, Gurugram, Haryana 122022</a>
+		</div>
+			</ul>
+			</div>
+
+		<!--------------.for Mobile responsive---------------------->
+
+			<div class="col-xs-12 col-sm-6 col-md-2 footers-five footli d-block d-sm-none">
+				<h5 class="foothead">FIND US ON </h5>
+				<ul class="list-unstyled ">
+				<div class="social-icons ">
+
+					<a href="https://www.facebook.com/" style="color:#DADADA"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+					<a href="https://twitter.com/" style="color:#DADADA"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+					<a href="https://plus.google.com/" style="color:#DADADA"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+					<a href="mailto:bootsnipp@gmail.com" style="color:#DADADA"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+					<br>
+
+					<i class="fa fa-home" style="color:#1CCEDE" aria-hidden="true"></i><a class="footli" style="color:#DADADA; font-size:12px;"> Plot No1, Udyog Vihar Phase 1, Dundahera Village, Sector 20, Gurugram, Haryana 122022</a>
+				</div>
+				</ul>
+			</div>
+		   
+			   </div>
+		</div>
+		   <div style="height:40px; width:100%; background:#DADADA; text-align:center;"><a class="footli">&copy; copyright DroneMaps 2019 </a></div>
+		 
+	</section>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

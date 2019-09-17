@@ -272,29 +272,29 @@ background-color: rgba(0, 0, 0, 0.658);
     width: 100%;
     height: 100%;
 }
-
+/*--------------------------------------------------------------------------Logo size updated-----------------------------------------------------------------------------------------------------*/
 .esri{
-    width: 100%;
+    width: 90%;
 }
 
 .MP{
-    width: 60%;
+    width: 45%;
 }
 
 .UP{
-    width: 55%;
+    width: 45%;
 }
 
 .AP{
-    width: 60%;
+    width: 55%;
 }
 
  .Sap{
-     width: 40%;
+     width: 55%;
  }
 
  .Jio{
-     width: 40%;
+     width: 70%;
  }
 
  
@@ -307,32 +307,36 @@ background-color: rgba(0, 0, 0, 0.658);
      width: 105%;
  }
 .Reliance{
-    width: 75%;
+    width: 65%;
+}
+.mob_res .Reliance{
+    width: 90%;
+}
+
+.mob_res .Sap{
+	width:20%;
 }
 .mob_res .Jhu{
 	width:200%;
 }
 .mob_res .Sap{
-	width:20%;
+	width:50%;
 }
-.mob_res .Jio{
-	width:20%;
-}
+
 .mob_res .MP{
-	width: 80%;
+	width: 5rem;
 }
 .mob_res .AP{
-	width:100%;
+	width:6rem;
 }
 .mob_res .UP{
-	width:85%;
+	width:9rem;
 }
-.mob_res .Sap{
-	width:20%;
-}
+
 .mob_res .Kotak{
-	width:120%;
+	width:8rem;
 }
+/*--------------------------------------------------------------------------Logo size updated end-----------------------------------------------------------------------------------------------------*/
 .heading{
    margin-top: 5%;
     margin-bottom: 0;

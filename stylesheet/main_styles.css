@@ -138,41 +138,8 @@ transform: scale(1.1);
     justify-content: center;
 }
 
-/*footer*/
 
-footer .icons{
-    height: 30px;
-    width: 30px;
-    transition: transform .2s;
-}
-footer .icons:hover{
-    transform: scale(1.5);
-}
-footer {
-    padding: 10px;
-    color: white;
-    background: #313034;
-    display: flex;
-}
-.logo {
-    position: relative;
-    width: 80px;
-    height: 80px;
-}
-td {
-    padding-right: 20px;
-}
-.copyright{
-    text-align: right;
-    list-style-type: none ;
-    float: right;
-}
-footer a{
-    color: white;
-}
-footer a:hover{
-    color: #b3b3b3;
-}
+
 
 /* DropDown */
 .dropdown{
@@ -252,9 +219,51 @@ background: none;
   width: 120px;
 }
 
-footer
+/********footer style**********/
+.footimg
 {
-  background-image: url("./../source/image/Map_black.png");
-  background-size: 50%;
-  background-color: black;
+position: absolute;
+width: 100px;
+height: 100px;
+
 }
+
+
+#sec {
+      background-color: #DADADA;
+      position: absolute;
+      top: 0;
+      left: 0;
+     
+    }
+
+
+.foothead
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #1CCEDE;
+}
+
+
+ul li .footli
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 212.2%;
+/* or 25px */
+text-transform: capitalize;
+color:#DADADA;
+letter-spacing: 0px;
+}
+/************************/
