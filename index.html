@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+  
+
+  
+      
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,10 +46,11 @@
        
 		<div class="Intro_cont container-fluid main_nav_container ">
 			
-			<div class="Nav_identifier Nav_container container" id="Nav_identifier" onmouseover="moveBoolF()" onmouseout="moveBoolT()" >
-                <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-                    <a href="#" class="navbar-brand">
-                      <img class="Logo_navbar" src="./source/image/Company_logo.png" alt="logo"  width="50" height ="50"> DronaMaps
+			<div class=" Nav_container container " id="Nav_identifier" onmouseover="moveBoolF()" onmouseout="moveBoolT()" >
+                <nav class="navbar navbar-expand-md fixed-top   ">
+				
+                    <a href="#" class="navbar-brand ">
+                      <img class="logo newlogo" src="./source/image/Company_logo.png" alt="logo"  width="50" height ="50"><p class="newlogotext ">DronaMaps</p>
                     </a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,30 +61,40 @@
                     <div class="collapse navbar-collapse" id="navbarMenu">
                         <ul class="navbar-nav ml-auto" >
 
-                          <li class="nav-item navbar2" >
-                             <div class="dropdown">
-                                <a href='javascript: void(0);' class="nav-link" >Solutions</a>
-                                <div class="dropdown-content">
-                                    <a href="./pipline/recommedation.html">Preflight Recommendation</a>
-                                    <a href="./pipline/settlement_analytics.html">Settlement Analysis</a>
-                                    <a href="./pipline/agriculture_analytics.html">Precision Agriculture Analytics</a>
+                          <li class="nav-item navbar2 " >
+                             <div class="dropdown ">
+                                <a href='javascript: void(0);' class=" navbarmenucolor" >Solutions</a>
+                                <div class="dropdown-content ">
+									<a href="./pipline/recommedation.html" style="font-size: 18px; line-height: -1px;">for Settlements</a>
+										<ul >
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Smart City/ Smart&nbsp;Village</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Pipeline Construction</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Property Taxes</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Change Tracking</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Flood Management</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Waste Management</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Mining</a></li>
+											<hr/>
+										</ul>
+										
+										<a href="./pipline/recommedation.html" style="font-size: 18px; display:inline-block;">for Precision Agriculture</a>
 
                                 </div>
                             </div>
                           </li>
                             <li class="nav-item navbar2">
-                                <a href="#" class="nav-link" >Blog</a>
+                                <a href="#" class=" navbarmenucolor" >Blog</a>
                             </li>
                           <li class="nav-item navbar2">
-                              <a href="#" class="nav-link" >Contact Us</a>
+                              <a href="#" class=" navbarmenucolor" >Contact Us</a>
                            </li>
                            
-                          <li class="nav-item navbar2">
-                              <a href="./contactUs/contactUs.html" class="nav-link btn btn-outline-secondary btn-sm" >Login</a>
+                          <li class="nav-item navbar2" >
+                              <a href="./contactUs/contactUs.html" class=" btn btn-outline-info  btn-sm navbarmenucolor btn-block" >Login</a>
                            </li>
                            
                           <li class="nav-item navbar2  ">
-                              <a href="#" class="nav-link btn btn-info btn-sm" style="color:black; font-weight:bold;">Get a Quote</a>
+                              <a href="#" class=" btn btn-outline-info sagarcolorbackground navbarmenucolor  btn-block" style="color:black; font-weight:bold;">Get a Quote</a>
                            </li>
                         </ul>
                       </div>
@@ -285,8 +300,8 @@
 					<div class="row d-none d-sm-block">
 					  <div class="col-lg-12"><br>
 						<p class="text-center" style="color: #1DCEDE; float: top;">
-							<!-- <img src="./source/Svg/EnhanceDroneMaps.svg" > -->
-							<span class="insight2 ">Images to Insights</span><br>
+							<img src="https://ik.imagekit.io/1tz106e4j/dmaps_iRjap1wwix.svg" >
+							<!--<span class="insight2 ">Images to Insights</span>  --> <br>
 							<div class="insight">
 								Maps make places on the edges of imagination graspable and placable. 
 							</div>
@@ -301,7 +316,8 @@
 					<div class="img_insi row d-block d-sm-none">
 					  <div class="col-lg-12"><br>
 						<p class="text-center" style="color: #1DCEDE; float: top;">
-							<span class="insight2 ">Images to Insights</span><br>
+							<img src="https://ik.imagekit.io/1tz106e4j/dmaps_iRjap1wwix.svg" >
+							<!--<span class="insight2 ">Images to Insights</span>  --> <br>
 							<div class="insight">
 							Maps make places on the edges of imagination graspable and placable. Drone Maps empower decision
 							makers with robust insights using a combination of legacy geospatial approaches made more effective with deep learning.
@@ -412,10 +428,58 @@
 		</div>
 	</div>
 	<br><br>
-	  <!-------------------------------------------------------------------------------------new page ended from here ------------------------------------------------------------------------------->
+	 <!-------------------------------------------------------------------------------------new page ended from here ------------------------------------------------------------------------------->
+	 
+	<div class="Pipeline_cont">
+        <div id="myCarousel" class="carousel slide" data-ride="false" style="background: black">
+            <div class="video_background"  >
+                <video   preload="auto" autoplay  loop  muted id="myvideo" >
+                    <source src="./source/video/gradent_pink.mp4"  type="video/mp4">
+                </video>
+            </div>
+			<div class="row">
+				<div class="desc_ col-sm-6">
+					<span class="process">process</span>
+					<span class="dottedline">
+						
+					</span>
+					<span class="ellips1">
+						<img src="./source/image/Ellipse_24.svg"> 
+						<span class="ellips1_txt">
+							Use recommendation Engines to plan flights and Ground Control Points
+						</span>
+					</span>
+					<span class="ellips2">
+						<img src="./source/image/Ellipse_23.svg"> 
+						<span class="ellips2_txt"> 
+							Robust Pipeline to process and efficiently merge large areas together
+						</span>
+					</span>
+					<span class="ellips3">
+						<img src="./source/image/Ellipse_22.svg"> 
+						<span class="ellips3_txt"> 
+							Deep learning analytics suite for urban / rural (identification of plots, roads etc) and precision agriculture (plant count and plant health)
+						</span>
+					</span>
+					
+				</div>
+			
+				<div class="desc col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="640" height="480" src="https://sketchfab.com/models/93760d8297264eb184e5c3df52142d00/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
+						</iframe> 
+						
+					</div>
+					<p class="cti">Click to Interact</p>
+				</div>					
+			</div>
+		</div>
+    </div>
+	
+	 
 	 <!------------------------------------------------------------------------- modified section start------------------------------------------------------------------------------------------------------------------------->
         
-
+	<!--
      <div class="Pipeline_cont">
         <div id="myCarousel" class="carousel slide" data-ride="false" style="background: black">
             <div class="Pipeline_nav justify-content-center">
@@ -452,7 +516,7 @@
                 </video>
             </div>
 
-            <!------------------------------------------ sketchfab section modified as text getting disappeared while considering mobile size window------------------------------------------------------------------>
+            
 			<div class="row">
 				<div class="col-sm-6">
 				<div class="embed-responsive embed-responsive-16by9">
@@ -479,7 +543,7 @@
 						</button>
 					</div>
 				</div>
-			</div>
+			</div> -->
 <!-------------------------------------------------------------------------------------------- Modified section end ------------------------------------------------------------------------------------------------->
 <!--
 
@@ -613,8 +677,8 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
             </div>
 
 			-->
-        </div>
-    </div>
+     <!--   </div>
+    </div>  -->
 
 
       <!------------------------------------------------------------------------- modified section end ----------------------------------------------------------------------------------------------------------------------------------->
@@ -1021,17 +1085,17 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 
       -->
 		<!---------footer code------------>
-	<section class="footers bg-light pt-5 pb-3">
+	<section class="footers">
 		<div class=" pt-5 " style="background: rgba(6, 6, 6, 0.82);">
 		   <div class="row">
 			   <div class="col-xs-12 col-sm-6 col-md-2 footers-one d-none d-sm-block">
 		   <div class="footers-logo footimg">
-			   <img src="https://ik.imagekit.io/1tz106e4j/source/Svg/logogwitha1_6Nux5gizz.svg" alt="Logo" style="width:100px;">
+			   <img src="https://ik.imagekit.io/1tz106e4j/source/Svg/logogwitha1_6Nux5gizz.svg" alt="Logo" style="width:100px; margin:0px 100px;">
 		   </div>
 		 
 		   
 		</div>
-		  <div class="col-xs-12 col-sm-6 col-md-2 footers-two d-none d-sm-block">
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-two d-none d-sm-block " style="margin:0px 100px;">
 		   <h5 class="foothead">RESOURCES </h5>
 		   <ul class="list-unstyled "  >
 		<li><a class="footli" href="maintenance.html">For Urban Areas</a></li>
@@ -1041,7 +1105,7 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 		<!-- <li><a href="about.html">Post Requirements</a></li> -->
 		</ul>
 		</div>
-		  <div class="col-xs-12 col-sm-6 col-md-2 footers-three d-none d-sm-block">
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-three d-none d-sm-block" style="margin:0px -60px;">
 		   <h5 class="foothead">COMPANY </h5>
 		   <ul class="list-unstyled">
 		<li><a class="footli" href="maintenance.html">For Urban Areas</a></li>
@@ -1051,7 +1115,7 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 		<!-- <li><a href="about.html">Services</a></li> -->
 		</ul>
 		</div>
-		  <div class="col-xs-12 col-sm-6 col-md-2 footers-four d-none d-sm-block">
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-four d-none d-sm-block" style="margin:0px 100px;">
 		   <h5 class="foothead">MORE </h5>
 		   <ul class="list-unstyled">
 		<li><a class="footli" href="maintenance.html">For Urban Areas</a></li>
@@ -1061,7 +1125,7 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 		<!-- <li><a href="about.html">User Agreement</a></li> -->
 		</ul>
 		</div>
-		  <div class="col-xs-12 col-sm-6 col-md-2 footers-five footli d-none d-sm-block">
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-five footli d-none d-sm-block" style="margin:0px -60px;">
 		   <h5 class="foothead">FIND US ON </h5>
 		   <ul class="list-unstyled ">
 		<div class="social-icons ">
@@ -1072,7 +1136,7 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 		<a href="mailto:bootsnipp@gmail.com" style="color:#DADADA"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
 		<br>
 
-		<i class="fa fa-home" style="color:#1CCEDE" aria-hidden="true"></i><a class="footli" style="color:#DADADA; font-size:12px;"> Plot No1, Udyog Vihar Phase 1, Dundahera Village, Sector 20, Gurugram, Haryana 122022</a>
+		<i class="fa fa-home" style="color:#1CCEDE" aria-hidden="true"></i><a class="footli" style="color:#DADADA; font-family: Montserrat; font-size:12px;"> Plot No1, Udyog Vihar Phase 1, Dundahera Village, Sector 20, Gurugram, Haryana 122022</a>
 		</div>
 			</ul>
 			</div>
@@ -1090,7 +1154,7 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
 					<a href="mailto:bootsnipp@gmail.com" style="color:#DADADA"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
 					<br>
 
-					<i class="fa fa-home" style="color:#1CCEDE" aria-hidden="true"></i><a class="footli" style="color:#DADADA; font-size:12px;"> Plot No1, Udyog Vihar Phase 1, Dundahera Village, Sector 20, Gurugram, Haryana 122022</a>
+					<a class="footli" style="color:#DADADA; font-family: Montserrat;font-size:12px;"> Plot No1, Udyog Vihar Phase 1, Dundahera Village, Sector 20, Gurugram, Haryana 122022</a>
 				</div>
 				</ul>
 			</div>
@@ -1109,5 +1173,6 @@ frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webki
     <script src="./scripts/selection.js"></script>
     <script src="./scripts/Moveable_Button.js"></script>
     <script src="./scripts/Mask1.js"></script>
+	
   </body>
 </html>

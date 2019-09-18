@@ -169,14 +169,15 @@
 .button{
 	border:0;
 	border-radius:0;
-	background:#1CCEDE;;
-	color:azure;
+	background:#1CCEDE;
+	/* color:#1CCEDE; */
 	transition:transform .2s;
 }
 
 nav
 {
   z-index: 5;
+  
 }
 .main_nav_container
 {
@@ -200,13 +201,14 @@ width: 100%;
 }
 
 .Nav_container .navbar{
-  opacity: 0.86;
+  opacity: 0.82; /*17 night*/
 }
 
 .navbar-nav li
 {
   padding-right: 20px;
   color: white !important;
+  
 }
 
 .navbar-nav li :hover
@@ -216,13 +218,27 @@ width: 100%;
 }
 
 .nav-link{
-  font-size: 1.1em !important
+  font-size: 1.1em !important;
+  
 }
 
-.Nav_identifier
+.Nav_identifier/*17 night*/
 {
   padding-left: 0 !important;
   padding-right: 0 !important; 
+  background: rgba(6, 6, 6, 0.82);
+  width: 1441px;
+  font-family: Montserrat;
+  font-style: normal;
+/* font-weight: 600; */
+font-size: 18px;
+/* line-height: 22px; */
+/* identical to box height */
+
+text-align: center;
+
+
+  
 }
 
 
@@ -437,7 +453,7 @@ height: 100%;
     background: url("https://ik.imagekit.io/1tz106e4j/source/image/Company_logo_jVbGSkB-_n.png") no-repeat;
 
     background-size: contain;
-    filter: drop-shadow(0 0 25px rgb(195, 252, 255));
+    filter: drop-shadow(0 0 5px rgb(195, 252, 255));
     z-index: 2;
 }
 .glow{

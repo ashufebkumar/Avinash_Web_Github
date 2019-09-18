@@ -2,6 +2,150 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+/***************************start**********************************************/
+
+
+.process{
+	position: absolute;
+	width: 320px;
+	height: 95px;
+	margin-left: -10%;
+	margin-top: 280px;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 95px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: 4.2px;
+	text-transform: uppercase;
+	color: rgba(254, 254, 254, 0.8);
+	transform: rotate(90deg);
+	
+}
+.dottedline{
+	position: absolute;
+	width:811px;
+	height:500px;
+	left: -642px;
+	top: 70px;
+	border-top-right-radius:300px;
+	border-bottom-right-radius:300px;
+	border: 2px dotted #FFFFFF;		
+}
+
+.ellips1{
+	position: absolute;
+	width: 118px;
+	height: 118px;
+	left: 60px;
+	top: 20px;
+
+	background: rgba(255, 255, 255, 0);
+}
+.ellips2{
+	position: absolute;
+	width: 118px;
+	height: 118px;
+	left: 170px;
+	top: 250px;
+
+	background: rgba(255, 255, 255, 0);
+}
+.ellips3{
+	position: absolute;
+	width: 118px;
+	height: 118px;
+	left: 40px;
+	top: 520px;
+
+	background: rgba(255, 255, 255, 0);
+}
+
+.ellips1_txt{
+	position: absolute;
+	width: 342px;
+	height: 95px;
+	left: 150px;
+	top: 20px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 27px;
+
+	color: #FFFFFF;
+}
+.ellips2_txt{
+	position: absolute;
+	width: 285px;
+	height: 107px;
+	left: 150px;
+	top: 15px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 27px;
+
+	color: #FFFFFF;
+}
+.ellips3_txt{
+	position: absolute;
+	width: 421px;
+	height: 130px;
+	left: 150px;
+	top: 10px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 27px;
+
+	color: #FFFFFF;
+	
+}
+
+.cti{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 27px;
+	text-align: right;
+
+	color: #FFFFFF;
+}
+
+.desc_{
+	margin-top: 0%;
+	margin-bottom: 0%;
+    height: 80%;
+    padding: 0.5%;
+	
+	
+}
+.desc{
+    color: white;
+    margin-top: 5%;
+	margin-bottom: 5%;
+    height: 80%;
+    padding: 0.5%;
+	
+}
+
+/***************************end**********************************************/
+
+
+
+
+
+
 .desc_enhance
 {
 	background-color: black;
@@ -9,10 +153,67 @@
 	filter: alpha(opacity=50);
 	
 }
+/*********newlogo**********/
+.newlogo{
+	
+position: absolute;
+width: 62px;
+height: 62px;
+left: 77px;
+top: 3px;
+}
+.newlogotext{
+position: absolute;
+width: 62px;
+height: 62px;
+left: 161px;
+top: 20px;
+font-family: Exo 2;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FEFEFE;
+}
+.sagarcolor
+{
+	color: #1CCEDE;
+}
+.sagarcolorbackground
+{
+	background-color: #1CCEDE;
+}
+.navbarmenucolor
+{
+	color: #1CCEDE;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 17.4px;
+/* line-height: 22px; */
+top: 36px;
+/* identical to box height */
+
+text-align: center;
+}
+.btn-block {
+    width: 139px;
+	height: 38px;
+	left: 1215px;
+top: 28px;
+
+border: 1px solid #1CCEDE;
+box-sizing: border-box;
+    /* define values in pixels / Percentage or em. whatever suits 
+       your requirements */
+}
+
+/****************/
 .navbar2{
-font-family:Montserrat;
+/* font-family:Montserrat; */
 font-size: 22px;
-color: white;
+/* color: white; */
 /* font-weight:bold;  */
 /* margin: 0% 13%; */
 }
@@ -236,7 +437,7 @@ margin: 1% 9%;
     margin-left: 48px;
 }
 
-#myCarousel hr{
+#myCarousel{
     margin-top: 50px;
     width: 100%;
     margin-bottom: 0;
