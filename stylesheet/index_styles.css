@@ -1,14 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
-/*.plt_box{
-	position: relative;
-	width: 1440px;
-	height: 1024px;
-	margin-top:10%;
+
+/**************************************************************************************19-09-2019*****************start*****************************************************************/
+.impact_title{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+.dmia{
+	font-family: Exo 2, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 60px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #FEFEFE;
+}
+.plt_box{
+	
 	background: #FFFFFF;
 	
-}*/
+}
+.media_mention_title{
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 37px;
+	
+	color: #171718;
+}
+/**************************************************************************************19-09-2019*********end************************************************************************************/
+
 .ptl{  /*Third page plan track */
 	
 	
@@ -50,6 +83,39 @@
 
 	color: #505050;
 }
+
+
+@media screen and(max-width:640px){
+	.container{
+		width:100%;
+	}
+	.ptl{  /*Third page plan track */
+	
+	
+	
+	font-size: 10%;
+	
+	}
+	.plt_def{
+		
+		
+		font-size: 15%;
+		
+	}
+	.plt_heading{
+		
+		font-size: 30%;
+		
+	}
+	.plt_heading_def{
+		
+		font-size: 15%;
+		
+	}
+	
+}
+
+
 .controller{
 	position: absolute;
 	width: 41.125rem;
@@ -169,14 +235,15 @@
 .button{
 	border:0;
 	border-radius:0;
-	background:#1CCEDE;;
-	color:azure;
+	background:#1CCEDE;
+	/* color:#1CCEDE; */
 	transition:transform .2s;
 }
 
 nav
 {
   z-index: 5;
+  
 }
 .main_nav_container
 {
@@ -200,13 +267,14 @@ width: 100%;
 }
 
 .Nav_container .navbar{
-  opacity: 0.86;
+  opacity: 0.82; /*17 night*/
 }
 
 .navbar-nav li
 {
   padding-right: 20px;
   color: white !important;
+  
 }
 
 .navbar-nav li :hover
@@ -216,13 +284,27 @@ width: 100%;
 }
 
 .nav-link{
-  font-size: 1.1em !important
+  font-size: 1.1em !important;
+  
 }
 
-.Nav_identifier
+.Nav_identifier/*17 night*/
 {
   padding-left: 0 !important;
   padding-right: 0 !important; 
+  background: rgba(6, 6, 6, 0.82);
+  width: 1441px;
+  font-family: Montserrat;
+  font-style: normal;
+/* font-weight: 600; */
+font-size: 18px;
+/* line-height: 22px; */
+/* identical to box height */
+
+text-align: center;
+
+
+  
 }
 
 
@@ -437,7 +519,7 @@ height: 100%;
     background: url("https://ik.imagekit.io/1tz106e4j/source/image/Company_logo_jVbGSkB-_n.png") no-repeat;
 
     background-size: contain;
-    filter: drop-shadow(0 0 25px rgb(195, 252, 255));
+    filter: drop-shadow(0 0 5px rgb(195, 252, 255));
     z-index: 2;
 }
 .glow{

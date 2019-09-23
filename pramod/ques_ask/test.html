@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" >
+		<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" >
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+		@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+		@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+		@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+		.process{
+			position: absolute;
+			width: 17rem;
+			height: 5.9375rem;
+			margin-left: -10%;
+			margin-top: 17.5rem;
+			font-family: Oswald;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 4rem;
+			line-height: 5.9375rem;
+			text-align: center;
+			letter-spacing: 0.2625rem;
+			text-transform: uppercase;
+			color: rgba(254, 254, 254, 0.8);
+			transform: rotate(90deg);
+			
+		}
+		.dottedline{
+			position: absolute;
+			width:811px;
+			height:500px;
+			left: -642px;
+			top: 70px;
+			border-top-right-radius:300px;
+			border-bottom-right-radius:300px;
+			border: 2px dotted #FFFFFF;		
+		}
+
+		.ellips1{
+			position: absolute;
+			width: 118px;
+			height: 118px;
+			left: 60px;
+			top: 20px;
+			background: rgba(255, 255, 255, 0);
+		}
+		.ellips2{
+			position: absolute;
+			width: 118px;
+			height: 118px;
+			left: 170px;
+			top: 250px;
+			background: rgba(255, 255, 255, 0);
+		}
+		.ellips3{
+			position: absolute;
+			width: 118px;
+			height: 118px;
+			left: 40px;
+			top: 520px;
+			background: rgba(255, 255, 255, 0);
+		}
+
+		.ellips1_txt{
+			position: absolute;
+			width: 342px;
+			height: 95px;
+			left: 150px;
+			top: 20px;
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 22px;
+			line-height: 27px;
+			color: #FFFFFF;
+		}
+		.ellips2_txt{
+			position: absolute;
+			width: 285px;
+			height: 107px;
+			left: 150px;
+			top: 15px;
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 22px;
+			line-height: 27px;
+
+			color: #FFFFFF;
+		}
+		.ellips3_txt{
+			position: absolute;
+			width: 421px;
+			height: 130px;
+			left: 150px;
+			top: 10px;
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 22px;
+			line-height: 27px;
+			color: #FFFFFF;
+			
+		}
+
+		.cti{
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 27px;
+			text-align: right;
+
+			color: #FFFFFF;
+		}
+
+		.desc{
+		  
+			margin-top: 5%;
+			margin-bottom: 5%;
+			
+		}
+
+		.video_background{
+			position: absolute;
+			top: 0;
+			z-index: 0;
+			overflow: hidden;
+			height: 100%;
+			width: 100%;
+		}
+		#myCarousel{
+			margin-top: 50px;
+			width: 100%;
+			margin-bottom: 0;
+			box-shadow: 0 1.7px 5px gray;
+		}
+		</style>
+	</head>
+	<body>
+		<div class=" Pipeline_cont">
+			<div id="myCarousel" class="carousel slide" data-ride="false" style="background: black">
+				<div class="video_background"  >
+					<video   preload="auto" autoplay  loop  muted id="myvideo" >
+						<source src="./source/gradent_pink.mp4"  type="video/mp4">
+					</video>
+				</div>
+				<div class="row">
+					<div class="desc_ col-sm-5">
+						<span class="process">process</span>
+						<span class="dottedline">
+							
+						</span>
+						<span class="ellips1">
+							<img src="./source/Ellipse_24.svg"> 
+							<span class="ellips1_txt">
+								Use recommendation Engines to plan flights and Ground Control Points
+							</span>
+						</span>
+						<span class="ellips2">
+							<img src="./source/Ellipse_23.svg"> 
+							<span class="ellips2_txt"> 
+								Robust Pipeline to process and efficiently merge large areas together
+							</span>
+						</span>
+						<span class="ellips3">
+							<img src="./source/Ellipse_22.svg"> 
+							<span class="ellips3_txt"> 
+								Deep learning analytics suite for urban / rural (identification of plots, roads etc) and precision agriculture (plant count and plant health)
+							</span>
+						</span>
+						
+					</div>
+					<div class="col-sm-1"></div>
+					<div class="desc col-sm-5">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe width="640" height="480" src="https://sketchfab.com/models/93760d8297264eb184e5c3df52142d00/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
+							</iframe> 
+							
+						</div>
+						<p class="cti">Click to Interact</p>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
